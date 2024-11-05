@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Converter</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="images/logojpg.jpg" alt="Logo"> Reecocefe Pvt
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div>
+            <h1>Welcome to Area Converter</h1>
+            <div class="converter-form">
+                <h2 class="blue-text">Area Converter</h2>
+                <p class="blue-text">Enter the value and select desired units:</p>
+                <form id="converterForm">
+                    <div class="form-group">
+                        <label for="valueInput" class="blue-text">Value</label>
+                        <input type="number" class="form-control" id="valueInput" placeholder="Enter value">
+                    </div>
+                    <div class="form-group">
+                        <label for="fromUnitSelect" style="color: black;">From</label>
+                        <select class="form-control" id="fromUnitSelect">
+                            <option>Square Feet</option>
+                            <option>Acres</option>
+                            <option>Hectares</option>
+                            <option>Square Meters</option>
+                            <option>Cents</option>
+                            <option>Guntas</option>
+                            <option>Kanals</option>
+                            <option>Marlas</option>
+                            <option>Gaj</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="toUnitSelect" style="color: black;">To</label>
+                        <select class="form-control" id="toUnitSelect">
+                            <option>Square Feet</option>
+                            <option>Acres</option>
+                            <option>Hectares</option>
+                            <option>Square Meters</option>
+                            <option>Cents</option>
+                            <option>Guntas</option>
+                            <option>Kanals</option>
+                            <option>Marlas</option>
+                            <option>Gaj</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Convert</button>
+                </form>
+                <p id="result" class="mt-3" style="color: black;"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <h2>About Land Area Conversion</h2>
+        <p>Land measurement in India has always been done using various local and native measurement units such as
+            Bigha,
+            Ground, Kanal, etc, depending upon the state. These are locally set benchmarks, which have been in usage for
+            a long time. These unit measurements vary greatly across regions, which is why converting them to
+            international standard units, or globally accepted units, also known as SI units is of paramount importance.
+            In addition, to understand the exact area of land as well as to calculate the value of land, converting
+            local
+            units into SI units, using a land area calculator, is advisable.</p>
+        <p>Some of the common land measurement units across India are hectares, acres, square meters, square yards.
+            Other
+            than this, Bigha, Marla, Cent, Guntha, Ground are regional units and their size varies from state to state.
+        </p>
+        <h3>Land area measurement units used in North India</h3>
+        <p>Bigha, Biswa, Biswansi, Killa, Ghumaon, Kanal are popular land area measurement units used in Haryana, Uttar
+            Pradesh, Uttarakhand, Punjab, etc. To convert these local units into SI units, use the area conversion
+            calculator.</p>
+        <h3>Land area measurement units used in South India</h3>
+        <p>Ankanam, Cent, Ground, Guntha, Kuncham are popular land measurement units used in states such as Tamil Nadu,
+            Andhra Pradesh, Kerala, Karnataka, etc. Convert these local units into globally accepted measurement units
+            using the area calculator.</p>
+        <h3>Land area measurement units used in East India</h3>
+        <p>Chatak, Decimal, Dhur, Kattha, Lecha are the land measurement units popular in eastern states like West
+            Bengal,
+            Tripura, Assam, etc. Use an area converter for conversion.</p>
+        <h3>Land area measurement units used in West India</h3>
+        <p>Bigha, Biswa, Biswansi are popular land area measurement units used in western states of India such as
+            Rajasthan, Gujarat, Maharashtra, etc. Use an area conversion calculator for conversion.</p>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-content">
+            <h2>FAQS ON AREA MEASUREMENT UNITS</h2>
+            <h3>Which land measurement units are used in North India?</h3>
+            <p>Some of the popular land measurement units used in North India are Bigha, Biswa, Killa, Ghumaon,
+                Biswansi,
+                Kanal and many more.</p>
+            <h3>Which land measurement units are used in East India?</h3>
+            <p>In East India, people usually use Chatak, Dhur, Kattha, Lacha for land measurement purposes.</p>
+            <h3>Which land measurement units are used in West India?</h3>
+            <p>Bigha, Biswa, Biswansi are some of the commonly used land measurement units in West India.</p>
+            <h3>Which land measurement units are used in Central India?</h3>
+            <p>People mostly use Bigha and Kattha in Central India for measuring land parcels.</p>
+            <h3>Which land measurement units are used in South India?</h3>
+            <p>For land measurement purposes, people use Ankanam, Cent, Ground, Guntha, Kuncham, etc. in South India.
+            </p>
+        </div>
+    </section>
+
+    <section class="image-gallery-section">
+        <h2>Real Estate Construction Images</h2>
+        <div class="image-gallery">
+            <img src="images/img1.jpg" alt="Construction Image 1">
+            <img src="images/img1.jpg" alt="Construction Image 2">
+            <img src="images/img2.jpg" alt="Construction Image 3">
+            <img src="images/img1.jpg" alt="Construction Image 4">
+            <img src="images/img1.jpg" alt="Construction Image 5">
+            <img src="images/img1.jpg" alt="Construction Image 6">
+            <img src="images/img1.jpg" alt="Construction Image 7">
+            <img src="images/img1.jpg" alt="Construction Image 8">
+            <img src="images/img1.jpg" alt="Construction Image 9">
+            <img src="images/img1.jpg" alt="Construction Image 10">
+        </div>
+    </section>
+
+    <section class="explore-section">
+        <h2>Explore on Reecocefe</h2>
+        <div class="explore-columns">
+            <div class="explore-column">
+                <h3>COMMERCIAL LANDS</h3>
+                <ul>
+                    <li>Commercial land for sale in Greater Noida</li>
+                    <li>Commercial land for sale in Faridabad</li>
+                    <li>Commercial land for sale in Navi Mumbai</li>
+                    <li>Commercial land for sale in Ahmedabad West</li>
+                    <li>Commercial land for sale in Pune</li>
+                    <li>Commercial land for sale in Gurgaon</li>
+                    <li>Commercial land for sale in Western Mumbai</li>
+                    <li>Commercial land for sale in Noida</li>
+                    <li>View Less</li>
+                </ul>
+            </div>
+            <div class="explore-column">
+                <h3>AGRICULTURAL LANDS</h3>
+                <ul>
+                    <li>Agriculture land for sale in Greater Noida</li>
+                    <li>Agriculture land for sale in Navi Mumbai</li>
+                    <li>Agriculture land for sale in Chennai South</li>
+                    <li>Agriculture land for sale in Pune</li>
+                    <li>Agriculture land for sale in Gurgaon</li>
+                    <li>Agriculture land for sale in Hyderabad</li>
+                    <li>Agriculture land for sale in Western Mumbai</li>
+                    <li>Agriculture land for sale in Noida</li>
+                    <li>View Less</li>
+                </ul>
+            </div>
+            <div class="explore-column">
+                <h3>INDUSTRIAL LANDS</h3>
+                <ul>
+                    <li>Industrial land for sale in Greater Noida</li>
+                    <li>Industrial land for sale in Navi Mumbai</li>
+                    <li>Industrial land for sale in Chennai South</li>
+                    <li>Industrial land for sale in Pune</li>
+                    <li>Industrial land for sale in Gurgaon</li>
+                    <li>Industrial land for sale in Hyderabad</li>
+                    <li>Industrial land for sale in Western Mumbai</li>
+                    <li>Industrial land for sale in Noida</li>
+                    <li>View Less</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="row">
+            <div class="footer-column">
+                <h4>Reecocefe</h4>
+                <ul>
+                    <li><a href="#">Mobile Apps</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Price Trends</a></li>
+                    <li><a href="#">Post your Property</a></li>
+                    <li><a href="#">Real Estate Investments</a></li>
+                    <li><a href="#">Builders in India</a></li>
+                    <li><a href="#">Area Converter</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Rent Receipt</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Careers with us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Request Info</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Report a problem</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Summons/Notices</a></li>
+                    <li><a href="#">Grievances</a></li>
+                    <li><a href="#">Safety Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Our Partners</h4>
+                <ul>
+                    <li><a href="#">Naukri.com - Jobs in India</a></li>
+                    <li><a href="#">Naukrigulf.com - Jobs in middle east</a></li>
+                    <li><a href="#">Jeevansathi.com - Matrimonials</a></li>
+                    <li><a href="#">Brijj.com - Professional Networking</a></li>
+                    <li><a href="#">Shiksha.com - Education Career Info</a></li>
+                    <li><a href="#">Policybazaar.com - Insurance India</a></li>
+                    <li><a href="#">Meritnation.com - Online Educational Assessment</a></li>
+                    <li><a href="#">PaisaBazaar.com</a></li>
+                    <li><a href="#">AmbitionBox.com</a></li>
+                    <li><a href="#">FirstNaukri.com - A jobsite for campus hiring</a></li>
+                    <li><a href="#">Jobhai.com – Find Jobs Near You</a></li>
+                    <li><a href="#">Techminis.com - Tech news on the go</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p>Toll Free - 1800 41 99099</p>
+                <p>9:30 AM to 6:30 PM (Mon-Sun)</p>
+                <p>Email - <a href="mailto:feedback@Reecocefe.com">feedback@Reecocefe.com</a></p>
+                <h4>Connect with us</h4>
+                <div class="footer-icons">
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+                <h4>Download the App</h4>
+                <a href="#"><img src="images/android-app-icon.png" alt="Reecocefe Android App"></a>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Usage of Reecocefe.com to upload content showing area in non standard units or which enables targeting by
+                religion/community/caste/race is prohibited. Please report inappropriate content by writing to us at <a
+                    href="mailto:report@abuse.com">report abuse</a></p>
+            <p>All trademarks are the property of their respective owners.</p>
+            <p>All rights reserved - Info Edge (India) Ltd. A naukri.com group venture</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
